@@ -97,25 +97,30 @@ header a:hover{
 header h1{
     color: white;
     font-size: 40px; 
+    display: inline;
 }
 header ul{
     list-style-type: none;
     text-align: center;
+    height: auto;
+    padding-bottom: 25px;
 }
 header ul li{
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0 20px;
+    
 }
 /* Specials */
 #specials{
     background-color: white;
-    height: 580px;
+    height: 683px;
+    text-align: justify;
 }
 /* Food */ 
 #food{
     background-color: black;
     color: white;
-    height: 700px;
+    height: 683px;
     margin: 0 auto;
 }
 
@@ -123,7 +128,7 @@ header ul li{
 /* Drinks */
 #drinks{
     background-color: white;
-    height: 700px;
+    height: 650px;
 }
 
 
@@ -132,4 +137,7 @@ footer{
     clear: both;
     background-color: black;
     color: white;
+    bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
