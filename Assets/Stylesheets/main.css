@@ -53,15 +53,33 @@ table {
 /* Body */
 
 /* Header */
-
+header{
+    background-color: black;
+    
+}
+header a{
+    color: white;
+}
 /* Specials */
-
+#specials{
+    background-color: white;
+}
 /* Food */ 
-
+#food{
+    background-color: black;
+    color: white;
+}
 /* Drinks */
+#drinks{
+    background-color: white;
+}
 
 /* Drinks hot */
 
 /* Drinks Cold */
 
 /* Footer */
+footer{
+    background-color: black;
+    color: white;
+}
