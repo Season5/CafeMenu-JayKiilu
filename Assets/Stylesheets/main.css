@@ -51,7 +51,15 @@ table {
 /* Start of stylesheet */
 
 /* Body */
-
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.main h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 15px 0;
+    font-family: 'Indie Flower', cursive;
+}
 /* Header */
 header{
     background-color: black;
@@ -77,23 +85,33 @@ header ul li{
 /* Specials */
 #specials{
     background-color: white;
+    height: 580px;
 }
 /* Food */ 
 #food{
     background-color: black;
     color: white;
+    height: 700px;
 }
 /* Drinks */
 #drinks{
     background-color: white;
+    height: 700px;
 }
 
 /* Drinks hot */
-
+.hot{
+    margin-left: 90px;
+    float: left;
+}
 /* Drinks Cold */
-
+.cold{
+    margin-right: 90px;
+    float: right;
+}
 /* Footer */
 footer{
+    clear: both;
     background-color: black;
     color: white;
 }
